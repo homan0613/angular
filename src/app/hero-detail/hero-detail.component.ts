@@ -8,7 +8,7 @@ import { Hero } from '../hero';
 })
 
 export class HeroDetailComponent implements OnInit {
-  @Input() hero: Hero;
+  @Input() hero: Hero;//khai bao moi duoc su dung o html
   constructor() { }
 
   ngOnInit() {
