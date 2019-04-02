@@ -1,0 +1,54 @@
+﻿Bên dưới là link để tìm hiểu cho phần phát triển front-end
+sắp tới.
+https://angular.io/tutorial
+
+2 em đọc rồi thực hành toàn bộ phần Tutorial của Angular.
+Các vấn đề cần nắm
+
+1. Angular routing
+2. Component
+3. Dependency Injection (DI)
+
+Gợi ý tìm hiểu cho phần Angular.
+
+1. Component
+
+Component là gì?
+Cách tạo component?
+Cách sử dụng component?
+
+Bài tập: 
+
+- Tạo component để hiển thị danh sách task.
+- Tạo component để hiển thị thông tin chi tiết của task.
+
+2. HttpClient
+
+HttpClient dùng để làm gì?
+Cách để lấy dữ liệu từ Rest API.
+
+Bài tập: xây dựng service sử dụng HttpClient để lấy dữ liệu từ Rest API của phần Task Management.
+Dữ liệu này được sử dụng để hiển thị cho phần Component.
+
+3. Pipe
+
+Pipe là gì?
+Cách tạo pipe?
+Cách sử dụng pipe?
+Cách truyền parameter cho pipe.
+
+Bài tập: tạo pipe để hiển thị thông tin ngày start, end của task theo format YYYY/MM/DD (EEE)
+
+4. Routing & Navigation
+
+Làm thế nào để di chuyển từ page này sang page khác?
+
+Bài tập: sử dụng Angular Router để định nghĩa route như sau
+
+- Hiển thị mặc định: trang danh sách task
+- Ở danh sách task: khi tap vào task bất kỳ thì di chuyển sang trang hiển thị chi tiết thông tin task
+- Ở hiển thị chi tiết thông tin task: click button Back thì quay về trang danh sách task
+
+Deadline: 2019/04/08
+
+rồi viết báo cáo về phần mà các em đã tìm hiểu.
